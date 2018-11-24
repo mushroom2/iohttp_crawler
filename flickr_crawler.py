@@ -5,8 +5,8 @@ import asyncio
 import aiohttp
 import json
 from  os import path
-targeturl = 'https://www.flickr.com/photos/saver_ag'
-path_to_save = '/home/mushroom/lasoft/iohttpbs4/res'
+targeturl = 'https://www.flickr.com/photos/TARGET FLICKR USER'
+path_to_save = 'PATH/TO/SAVE'
 
 def get_pag_list(url):
     limit = 1
